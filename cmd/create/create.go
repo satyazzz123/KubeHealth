@@ -3,9 +3,9 @@ package cmd
 import (
 	"log"
 
-	"github.com/Parthiba-Hazra/clstres/client"
-	"github.com/Parthiba-Hazra/clstres/cmd"
-	"github.com/Parthiba-Hazra/clstres/helper"
+	"github.com/satyazzz123/KubeHealth/client"
+	"github.com/satyazzz123/KubeHealth/cmd"
+	"github.com/satyazzz123/KubeHealth/helper"
 	"github.com/spf13/cobra"
 )
 
