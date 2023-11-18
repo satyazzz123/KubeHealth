@@ -12,8 +12,8 @@ import (
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "show the installed version of clstres",
-	Long:  `It show the version of clstres, installed in the machine`,
+	Short: "show the installed version of KubeHealth",
+	Long:  `It show the version of KubeHealth, installed in the machine`,
 	Run: func(cmd *cobra.Command, args []string) {
 		log.Println("ClusterEase: v0.1")
 	},

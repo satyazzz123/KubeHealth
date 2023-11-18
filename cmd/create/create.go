@@ -34,7 +34,7 @@ based on the Kind specified in the YAML file. For example, to create a deploymen
 func init() {
 	cmd.RootCmd.AddCommand(createCmd)
 	createCmd.PersistentFlags().String("fp", "", "You need to provide the file path of your YAML file. (eg: --fp=./deployment.yaml)")
-
+	createCmd.PersistentFlags().String("ns","","You need to provide Namespace where you want to create the Resource" )
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
